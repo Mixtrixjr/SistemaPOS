@@ -1,11 +1,12 @@
 
 import './App.css'
+import Main from './Pages/main'
 
 function App() {
 
   return (
     <>
-       <p>Hola Mundo xd</p>
+       <Main></Main>
     </>
   )
 }
