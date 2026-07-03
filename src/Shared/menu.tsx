@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 
 function Menu() {
 
@@ -6,23 +8,24 @@ function Menu() {
       <div className="Lateral-Menu">
         <h3>Hola soy el menu lateral que no estoy lateral xd</h3>
         <div className="Inventario">
-            <a href="inventario.tsx">Inventario</a>
+          <Link to="inventario">Inventario</Link>
         </div>
          <div className="Ventas">
-            <a href="inventario.tsx">Ventas</a>
+          <Link to="ventas">Ventas</Link>
         </div>
          <div className="Pedidos">
-            <a href="inventario.tsx">Pedidos</a>
+          <Link to="pedidos">Pedidos</Link>
         </div>
          <div className="Usuarios">
-            <a href="inventario.tsx">Usuarios</a>
+          <Link to="usuarios">Usuarios</Link>
         </div>
          <div className="Informes">
-            <a href="inventario.tsx">Informes</a>
+          <Link to="informes">Informes</Link>
         </div>
 
       </div>
     </>
+    
   )
 }
 
