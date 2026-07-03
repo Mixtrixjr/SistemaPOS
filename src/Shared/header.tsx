@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom"
 
 function Header() {
 
   return (
     <>
        <div className="Header">
-        <a className="Logo" href="main.tsx">
+          <Link to="/" className="Logo">
           <img src="logo.png"></img>
-        </a>
+          </Link>
         <p>Hol soy el header xd</p>
        </div>
     </>
