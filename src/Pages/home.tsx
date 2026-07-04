@@ -1,8 +1,9 @@
 import Header from "../Shared/header"
 import Menu from "../Shared/menu"
 import Footer from '../Shared/footer';
+import { Outlet } from "react-router-dom";
 
-function Main() {
+function Home() {
   return (
     <div className="app-viewport">
       <Header />
@@ -13,7 +14,8 @@ function Main() {
         <main className="main-content-area">
           <div className="welcome-box">
             <h2>Hola Mundo xd</h2>
-            <p>Zona del sistema de ventas lista para desarrollo.</p>
+            <Outlet></Outlet>
+            
           </div>
         </main>
       </div>
@@ -24,4 +26,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Home

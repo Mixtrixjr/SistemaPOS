@@ -1,12 +1,11 @@
 
-import './App.css'
-import Main from './Pages/main'
+import Direcionamiento from './direccionamiento'
 
 function App() {
 
   return (
     <>
-       <Main></Main>
+    <Direcionamiento></Direcionamiento>
     </>
   )
 }
